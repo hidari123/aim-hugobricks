@@ -1,14 +1,14 @@
 ---
-title: Blog
-url: /blog/
+title: News
+url: /news/
 ---
 {{< brick_posts >}}
 
 {{< breadcrumbs >}}
 
-# Blog posts
+# 最新动态
 
-This is a demo of the blog. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin.
+一些最新动态的描述
 
 {{< /brick_posts >}}
 {{< brick_cta >}}{{< /brick_cta >}}

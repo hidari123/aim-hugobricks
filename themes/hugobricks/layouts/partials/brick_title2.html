@@ -6,14 +6,25 @@
     {{- end -}}
 {{- end -}}
 {{- $imagesrc := substr (index (split (index (findRE `!\[[^\]]*?]\(([^\)]*?)\)` $inner 1) 0) "](") 1) 0 -1 -}}
+{{- $imagesrc1 := substr (index (split (index (findRE `-\[[^\]]*?]\(([^\)]*?)\)` $inner 1) 0) "](") 1) 0 -1 -}}
 {{- $inner = markdownify $inner -}}
 {{- $image := index (findRE `(?s)<p><img.*?p>` $inner 1) 0 -}}
 {{- $inner = replace $inner $image "" 1 -}}
 {{- if $imagesrc -}}
+
+
 <section class="title bgimage transparent_header hasbackgroundcolor">
-    <div class="bgimage" style="background: url('{{ $imagesrc }}') center center / cover no-repeat;">
+    <!-- <div class="banner-container">
+        <div class="banner-img-container">
+            <img src="/img/home-photo.jpg" alt="">
+            <img src="/img/home-photo2.png" alt="">
+            <img src="/img/home-photo3.png" alt="">
+        </div>
+    </div> -->
+    <div class="bgimage background">
         <div class="overlay"></div>
         <div class="container small">
+            <img src="{{ $imagesrc1 }}" alt="" style="margin: 0 auto;">
             {{ $inner | safeHTML }}
         </div>
     </div>

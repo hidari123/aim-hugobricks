@@ -1,13 +1,32 @@
 <a href="{{ relLangURL `/` }}#top" class="logo">
-    {{ if (index .Site.Data .Language.Lang).header.logo_image }}
-        <img src="{{ (index .Site.Data .Language.Lang).header.logo_image }}" alt="{{ (index .Site.Data .Language.Lang).general.title }} logo" />
-    {{ else }}
-        <div class="{{ if (index .Site.Data .Language.Lang).header.logo_subtitle }}has_subtitle{{ end}}">
-            <img src="{{ .Site.Data.settings.favicon_image }}" alt="{{ (index .Site.Data .Language.Lang).general.title }} logo" class="inline black_2_textDark" />
-            <div>
-                <span>{{ (index .Site.Data .Language.Lang).general.title }}</span>
-                {{ if (index .Site.Data .Language.Lang).header.logo_subtitle }}<span>{{ (index .Site.Data .Language.Lang).header.logo_subtitle }}</span>{{ end }}
-            </div>
-        </div>
-    {{ end }}
+  {{ if (index .Site.Data .Language.Lang).header.logo_image2 }}
+  <img
+    src="{{ (index .Site.Data .Language.Lang).header.logo_image1 }}"
+    alt="{{ (index .Site.Data .Language.Lang).general.title }} logo"
+  />
+  |
+  <img
+    src="{{ (index .Site.Data .Language.Lang).header.logo_image2 }}"
+    alt="{{ (index .Site.Data .Language.Lang).general.title }} logo"
+  />
+  {{ else if (index .Site.Data .Language.Lang).header.logo_image }}
+  <img
+    src="{{ (index .Site.Data .Language.Lang).header.logo_image }}"
+    alt="{{ (index .Site.Data .Language.Lang).general.title }} logo"
+  />
+  {{ else }}
+  <div class="{{ if (index .Site.Data .Language.Lang).header.logo_subtitle }}has_subtitle{{ end}}">
+    <img
+      src="{{ .Site.Data.settings.favicon_image }}"
+      alt="{{ (index .Site.Data .Language.Lang).general.title }} logo"
+      class="inline black_2_textDark"
+    />
+    <div>
+      <span>{{ (index .Site.Data .Language.Lang).general.title }}</span>
+      {{ if (index .Site.Data .Language.Lang).header.logo_subtitle }}<span
+        >{{ (index .Site.Data .Language.Lang).header.logo_subtitle }}</span
+      >{{ end }}
+    </div>
+  </div>
+  {{ end }}
 </a>

@@ -30,8 +30,8 @@ The header CTA is the button in the top right corner of each page. You can turn 
 ```
 cta:
   active: true
-  title: Get started
-  link: /get-started/
+  title: content-us
+  link: /content-us/
 ```
 
 ### Preheader

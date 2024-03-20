@@ -71,7 +71,7 @@
     {{- block "content" . -}}{{- end -}}
 
     <footer class="{{ if (index .Site.Data .Language.Lang).footer.dark_footer }}dark{{ end }}">
-      <div>
+      <!-- <div>
         <div class="container">
           <div>
             {{ partial "footerlogo.html" . }}
@@ -87,10 +87,10 @@
             {{ partial "socialbuttons.html" . }}
           </div>
         </div>
-      </div>
+      </div> -->
       <div>
         <div class="container">
-		      <div>{{ markdownify (index .Site.Data .Language.Lang).footer.footer_text }}</div>
+		      <div>&copy; {{ now.Year }} {{ markdownify (index .Site.Data .Language.Lang).footer.footer_text }}</div>
 		    </div>
   		</div>
 		</footer>

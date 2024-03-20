@@ -1,12 +1,12 @@
 ---
-title: 'Artisanal web development'
-image: /uploads/gallery/03.jpg
+title: 阳光炙热，激情不减 | AIM中心团建进行时
+image: /uploads/gallery/2023-08-01-team-activity-1.jpg
 date: 2022-09-30
-tags:
-  -
+tags: 
+  - 
 ---
 
-Yesterday [David Large](https://www.linkedin.com/in/david-large-4875b81b2/?originalSubdomain=nz) invited me to his [Static Feedback](https://www.youtube.com/watch?v=MuAe7aZu0Nw) show. It was a big honor to be featured there. The interview went by in a flash... and I want this post to summarize it and add some points that we may have missed.
+<!-- Yesterday [David Large](https://www.linkedin.com/in/david-large-4875b81b2/?originalSubdomain=nz) invited me to his [Static Feedback](https://www.youtube.com/watch?v=MuAe7aZu0Nw) show. It was a big honor to be featured there. The interview went by in a flash... and I want this post to summarize it and add some points that we may have missed.
 
 ## What is artisanal web development?
 
@@ -47,4 +47,4 @@ I did not come up with this term/approach/philosophy by myself. I was inspired b
 - [You might not need jQuery](https://youmightnotneedjquery.com/), Hubspot
 - [VanillaJS](http://vanilla-js.com/), Eric Wastl
 
-PS. I mentioned Kev Quirk in the interview. He pointed me at my missing [RSS feed](https://kevquirk.com/why-having-a-full-post-rss-feed-is-a-good-idea/). I joked about him being agressive. I should have said 'persuasive'. [Thanks again Kev!](https://www.usecue.com/blog/thanks-to-kev-quirk/)
+PS. I mentioned Kev Quirk in the interview. He pointed me at my missing [RSS feed](https://kevquirk.com/why-having-a-full-post-rss-feed-is-a-good-idea/). I joked about him being agressive. I should have said 'persuasive'. [Thanks again Kev!](https://www.usecue.com/blog/thanks-to-kev-quirk/) -->
