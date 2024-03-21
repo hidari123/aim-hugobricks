@@ -2,7 +2,7 @@
     {{- range (index page.Site.Data page.Site.Language.Lang).people -}}
         <li>
             <div class="box">
-            <img src="{{ .image }}" alt="{{ .name }}" class="avatar colorize_image" />
+            <img src="{{ .image }}" alt="{{ .name }}" class="avatar" />
             <h3>{{- .name -}}</h3>
             <div class="function">{{- .function | safeHTML -}}</div>
             <p>{{- .description | safeHTML -}}</p>

@@ -25,7 +25,7 @@ Donec rutrum felis dignissim nisl tincidunt, sit amet interdum dolor ornare. Cra
 
 {{< tabs >}}
 
-## PI
+## PI {#pi}
 
 > 研究员/特聘研究员/副研究员/特聘副研究员/助理研究员
 
@@ -56,7 +56,7 @@ Donec rutrum felis dignissim nisl tincidunt, sit amet interdum dolor ornare. Cra
 - 按政策享受就医、子女入学入托、配偶工作等待遇。
 
 ---
-## 博士后
+## 博士后 {#boshihou}
 
 
 1. 要求：
@@ -82,7 +82,7 @@ Donec rutrum felis dignissim nisl tincidunt, sit amet interdum dolor ornare. Cra
 - 研究所预留1/3正式科研编制引进年度指标用于遴选优秀博士后出站留所；另，通过杭州医学院等高校及杭州医药港小镇的人才战略合作，可享受博士后出站后优先引进，留杭市属单位工作者可享受不低于40万的人才补贴。
 
 ---
-## 算法工程师/软件工程师
+## 算法工程师/软件工程师 {#gongchengshi}
 
 1. 要求：
 
@@ -103,7 +103,7 @@ Donec rutrum felis dignissim nisl tincidunt, sit amet interdum dolor ornare. Cra
 - 如科研潜力突出，可申请审核制博士并择优录取。
 
 ---
-## 科研助理
+## 科研助理 {#keyanzhuli}
 
 
 1. 要求：

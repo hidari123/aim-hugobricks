@@ -1,27 +1,29 @@
-action: /form.php
+action: 'mailto: jobs@aimlab.cc'
 placeholders: false
+title: 申请方式
+email: 邮箱：jobs@aimlab.cc
+description: 邮件主题请注明：应聘岗位+姓名+研究方向，并附上你的简历 
 fields: 
-- name: title
-  input_type: html
-  placeholder: <h3>Tell us a bit about yourself</h3>
-  required: true
-- name: name
-  input_type: text
-  placeholder: Name
-  required: true
-- name: email
-  input_type: email
-  placeholder: Email address
-  required: true
-- name: message
-  input_type: textarea
-  placeholder: Message
-  required: false
-- name: terms
-  input_type: checkbox
-  placeholder: I accept the terms and conditions
-  required: true
+# - name: title
+#   input_type: html
+#   placeholder: <h3>Tell us a bit about yourself</h3>
+#   required: true
+# - name: name
+#   input_type: text
+#   placeholder: Name
+#   required: true
+# - name: email
+#   input_type: email
+#   placeholder: Email address
+#   required: true
+# - name: message
+#   input_type: textarea
+#   placeholder: Message
+#   required: false
+# - name: terms
+#   input_type: checkbox
+#   placeholder: I accept the terms and conditions
+#   required: true
 - name: submit
   input_type: submit
-  placeholder: Submit form
-  required: true
+  placeholder: 现在就加入我们

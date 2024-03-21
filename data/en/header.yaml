@@ -29,8 +29,8 @@ menuitems:
   #       link: /contact/
   #     - title: F.A.Q.
   #       link: /faq/
-      # - title: 404 Page
-      #   link: /404.html
+  #     - title: 404 Page
+  #       link: /404.html
   # - title: Docs
   #   link: /docs/
   - title: 研究方向
