@@ -1,20 +1,7 @@
 <div style="min-height: calc(100vh - 860px);">
     <img src="/form.php" style="position: absolute; opacity: 0; pointer-events: none;" />
-    {{- if .title -}}
-    <h3>{{ .title}}</h3>
-    {{- end -}}
-    {{- if .email -}}
-    <div>{{ .email}}</div>
-    {{- end -}}
-    {{- if .description -}}
-    <div>{{ .description}}</div>
-    {{- end -}}
-    {{- if .emailPlaceholder -}}
-    <div class="submit">
-        <div style="margin-top: 2rem;"><a href="mailto:{{ .email }}?subject={{ .name }}&body={{ .message }}" class="button"><div>现在就加入我们</div></a></div>
-    </div>
-    {{- end -}}
     <form id="contactform" class="form" method="POST" action="{{ .action }}">
+        {{ .action }}
         {{- range .fields -}}
             {{- if eq .input_type `textarea` -}}
                 <div>
@@ -48,4 +35,5 @@
             {{- end -}}
         {{- end -}}
     </form>
+    <a href="mailto:yy@imooc.com?cc=tj_ws@163.com&bcc=tj_ws@161.com;tj_ws@162.com&subject=观了不起的盖茨比有感&body=你好，对此评论有些想法">对此影评有何感想，发送邮件给我</a>
 </div>
