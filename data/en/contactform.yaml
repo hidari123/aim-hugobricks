@@ -1,4 +1,4 @@
-action: 'mailto: jobs@aimlab.cc'
+action: 'mailto:jobs@aimlab.cc'
 placeholders: false
 description:  
 fields: 
@@ -14,15 +14,15 @@ fields:
   input_type: html
   placeholder: <div>邮件主题请注明：应聘岗位+姓名+研究方向，并附上你的简历</div>
   required: true
-- name: name
+- name: subject
   input_type: text
   placeholder: 邮件主题
   required: true
-- name: email
-  input_type: email
-  placeholder: 邮箱地址
-  required: true
-- name: message
+# - name: email
+#   input_type: email
+#   placeholder: 邮箱地址
+#   required: true
+- name: body
   input_type: textarea
   placeholder: 邮件内容
   required: false

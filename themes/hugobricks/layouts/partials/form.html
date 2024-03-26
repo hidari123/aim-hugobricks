@@ -6,7 +6,7 @@
             {{- if eq .input_type `textarea` -}}
                 <div>
                     <label class="inborder{{ if eq $.placeholders true }} sr-only{{ end }}" for="{{ .name }}">{{ .placeholder }}</label>
-                    <textarea name="{{ .name }}" name="{{ .name }}" id="{{ .name }}" cols="30" rows="10" class="form-control" {{ if eq $.placeholders true }}placeholder="{{ .placeholder }}"{{ end }} required></textarea>
+                    <textarea name="{{ .name }}" name="{{ .name }}" value="111" id="{{ .name }}" cols="30" rows="10" class="form-control" {{ if eq $.placeholders true }}placeholder="{{ .placeholder }}"{{ end }} required></textarea>
                 </div>
             {{- else if eq .input_type `radio` -}}
                 <div class="radio">
