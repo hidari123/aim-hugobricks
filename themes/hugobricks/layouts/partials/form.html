@@ -1,7 +1,7 @@
 <div style="min-height: calc(100vh - 860px);">
     <img src="/form.php" style="position: absolute; opacity: 0; pointer-events: none;" />
     <form id="contactform" class="form" method="POST">
-        <input style="display: none;" id="action" value="{{ .action }}" />
+        <input style="display: none;" id="actionEmail" value="{{ .actionEmail }}" />
         {{- range .fields -}}
             {{- if eq .input_type `textarea` -}}
                 <div>
@@ -24,7 +24,7 @@
             {{- else if eq .input_type `html` -}}
                 {{ .placeholder | safeHTML }}
             {{- else if eq .input_type `submit` -}}
-                <div class="submit" onclick="window.open(`mailto:${document.getElementById('action').value}?subject=${document.getElementById('subject').value}&body=${document.getElementById('body').value}`)">
+                <div class="submit" onclick="window.open(`mailto:${document.getElementById('actionEmail').value}?subject=${document.getElementById('subject').value}&body=${document.getElementById('body').value}`)">
                     <div><input type="{{ .input_type }}" value="{{ .placeholder }}" class="button" /></div>
                 </div>
             {{- else -}}
