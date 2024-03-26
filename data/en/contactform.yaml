@@ -1,28 +1,34 @@
 action: 'mailto: jobs@aimlab.cc'
 placeholders: false
-title: 申请方式
-email: 邮箱：jobs@aimlab.cc
-description: 邮件主题请注明：应聘岗位+姓名+研究方向，并附上你的简历 
+description:  
 fields: 
-# - name: title
-#   input_type: html
-#   placeholder: <h3>Tell us a bit about yourself</h3>
-#   required: true
-# - name: name
-#   input_type: text
-#   placeholder: Name
-#   required: true
-# - name: email
-#   input_type: email
-#   placeholder: Email address
-#   required: true
-# - name: message
-#   input_type: textarea
-#   placeholder: Message
-#   required: false
+- name: title
+  input_type: html
+  placeholder: <h3>申请方式</h3>
+  required: true
+- name: title
+  input_type: html
+  placeholder: <div>邮箱：jobs@aimlab.cc</div>
+  required: true
+- name: title
+  input_type: html
+  placeholder: <div>邮件主题请注明：应聘岗位+姓名+研究方向，并附上你的简历</div>
+  required: true
+- name: name
+  input_type: text
+  placeholder: 邮件主题
+  required: true
+- name: email
+  input_type: email
+  placeholder: 邮箱地址
+  required: true
+- name: message
+  input_type: textarea
+  placeholder: 邮件内容
+  required: false
 # - name: terms
-#   input_type: checkbox
-#   placeholder: I accept the terms and conditions
+#   input_type: file
+#   placeholder: 请上传
 #   required: true
 - name: submit
   input_type: submit

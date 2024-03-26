@@ -11,7 +11,7 @@
     {{- end -}}
     {{- if .emailPlaceholder -}}
     <div class="submit">
-        <div style="margin-top: 2rem;"><a href="mailto:{{ .email }}" class="button"><div>现在就加入我们</div></a></div>
+        <div style="margin-top: 2rem;"><a href="mailto:{{ .email }}?subject={{ .name }}&body={{ .message }}" class="button"><div>现在就加入我们</div></a></div>
     </div>
     {{- end -}}
     <form id="contactform" class="form" method="POST" action="{{ .action }}">
@@ -29,6 +29,11 @@
                 <div class="checkbox">
                     <label><input type="checkbox" name="{{ .name }}" value="{{ .placeholder }}" required>{{ .placeholder | safeHTML }}</label>
                 </div>
+            {{- else if eq .input_type `file` -}}
+            <div class="file">
+                <button type="button">{{ .placeholder | safeHTML }}</button>
+                <input type="file" class="file-upload-input" onchange="uploadFile(this)" required/>
+            </div>
             {{- else if eq .input_type `html` -}}
                 {{ .placeholder | safeHTML }}
             {{- else if eq .input_type `submit` -}}
