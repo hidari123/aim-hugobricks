@@ -1,7 +1,7 @@
 <div style="min-height: calc(100vh - 860px);">
     <img src="/form.php" style="position: absolute; opacity: 0; pointer-events: none;" />
     <form id="contactform" class="form" method="POST">
-        <div style="display: none;" id="action">{{ .action }}</div>
+        <input style="display: none;" id="action" value="{{ .action }}" />
         {{- range .fields -}}
             {{- if eq .input_type `textarea` -}}
                 <div>
