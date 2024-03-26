@@ -1,4 +1,4 @@
-action: 'mailto:yy@imooc.com'
+action: 'mailto:jobs@aimlab.cc'
 placeholders: false
 description:  
 fields: 
@@ -21,7 +21,7 @@ fields:
 # - name: email
 #   input_type: email
 #   placeholder: 邮箱地址
-#   required: true
+#   required: false
 - name: body
   input_type: textarea
   placeholder: 邮件内容

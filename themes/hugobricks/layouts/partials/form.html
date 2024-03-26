@@ -1,7 +1,7 @@
 <div style="min-height: calc(100vh - 860px);">
     <img src="/form.php" style="position: absolute; opacity: 0; pointer-events: none;" />
     <form id="contactform" class="form" method="POST">
-        {{ .action }}
+        <div style="display: none;" id="action">{{ .action }}</div>
         {{- range .fields -}}
             {{- if eq .input_type `textarea` -}}
                 <div>
@@ -24,7 +24,7 @@
             {{- else if eq .input_type `html` -}}
                 {{ .placeholder | safeHTML }}
             {{- else if eq .input_type `submit` -}}
-                <div class="submit" onclick="window.open(`mailto:{{.action}}?subject=${document.getElementById('subject').value}&body=${document.getElementById('body').value}`)">
+                <div class="submit" onclick="window.open(`mailto:${document.getElementById('action').value}?subject=${document.getElementById('subject').value}&body=${document.getElementById('body').value}`)">
                     <div><input type="{{ .input_type }}" value="{{ .placeholder }}" class="button" /></div>
                 </div>
             {{- else -}}
@@ -35,5 +35,4 @@
             {{- end -}}
         {{- end -}}
     </form>
-    <a href="mailto:yy@imooc.com?cc=tj_ws@163.com&bcc=tj_ws@161.com;tj_ws@162.com&subject=观了不起的盖茨比有感&body=你好，对此评论有些想法">对此影评有何感想，发送邮件给我</a>
 </div>
