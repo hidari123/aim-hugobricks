@@ -15,10 +15,10 @@ menuitems:
   #       link: /elements/
   #     - title: Header image 1
   #       link: /bgimage3/
-  #     # - title: Header image 2
-  #     #   link: /bgimage2/
-  #     # - title: Header image 3
-  #     #   link: /bgimage/
+  #     - title: Header image 2
+  #       link: /bgimage2/
+  #     - title: Header image 3
+  #       link: /bgimage/
   #     - title: Basic page 1
   #       link: /basic/
   #     - title: Basic page 2
@@ -41,6 +41,11 @@ menuitems:
     link: /team/
   - title: 最新动态
     link: /news/
+  - title: 产品介绍
+    link: /products/
+    items:
+      - title: Insage
+        link: /insage/
 cta:
   active: true
   title: 联系我们
