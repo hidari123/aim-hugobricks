@@ -1,22 +1,22 @@
-- title: Hugobricks theme
+- title: 2024
   faqs:
-    - question: Why choose Hugobricks for my next project?
-      answer: Hugo allows you to build a fast, efficient, and scalable website. It offers you a clean separation of concerns, content vs layout and styles. The Hugobricks brings a pagebuilder to that workflow.
-    - question: I need to develop a performant website. Does Hugobricks offer a good performance?
-      answer:  Hugobricks is renowned for its exceptional speed and performance. It is built using the Go programming language, which enables it to generate websites at an astonishing pace. Whether you have a small blog or a large enterprise site, Hugobricks’s speed ensures that your pages load quickly, providing an excellent user experience. This advantage becomes especially significant when dealing with large websites or making frequent updates.
-- title: Scalability, ease of use and flexibility?
+    - question: Quantum Interference Model for Semantic Biases of Glosses in Word Sense Disambiguation.
+      answer: 'Junwei Zhang, Ruifang He, Fengyu Guo, and Chang Liu. Quantum Interference Model for Semantic Biases of Glosses in Word Sense Disambiguation. AAAI Conference on Artificial Intelligence, 2024: 19551-19559.'
+- title: 2023
   faqs:
-    - question: What about scalability and portability
-      answer: Whether you’re building a personal blog or a large-scale enterprise website, Hugobricks scales effortlessly. Its ability to handle thousands of pages with consistent speed and efficiency makes it an ideal choice for projects of any size. Moreover, Hugobricks generates static websites that can be hosted on any web server or content delivery network (CDN) without any specific server requirements, ensuring portability and easy deployment.
-    - question: How easy is it to set up?
-      answer: Hugobricks offers a straightforward and hassle-free setup process. It comes with pre-built binaries for various operating systems, making it accessible to developers across different platforms. Additionally, Hugobricks has a user-friendly command-line interface (CLI) that allows you to create and manage your site effortlessly. Its simplicity makes it a great choice for both experienced developers and beginners alike.
-    - question: How flexible is the offered architecture?
-      answer: Hugobricks provides a flexible architecture that empowers developers to create websites tailored to their specific needs. With its powerful templating system, you can easily customize the look and feel of your site. Hugobricks supports a wide range of themes, allowing you to choose from a vast collection or create your own. Furthermore, its extensive plugin ecosystem enables you to extend its functionality and add features seamlessly.
-- title: Markdown content and SEO
+    - question: A deep learning-based approach for rectus abdominis segmentation and distance measurement in ultrasonography.
+      answer: 'Fei Wang, Rongsong Mao, Laifa Yan, Shan Ling, and Zhenyu Cai. A deep learning-based approach for rectus abdominis segmentation and distance measurement in ultrasonography. Frontiers in Physiology, 2023: 14.'
+    - question: Exploiting CCTV Cameras for Hand Hygiene Recognition in ICU.
+      answer: 'Weijun Huang, Jia Huang, Guowei Wang, Hongzhou Lu, Min He, and Wenjin Wang. Exploiting CCTV Cameras for Hand Hygiene Recognition in ICU. 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023: 1-5.'
+    - question: Camera Wavelength Selection for Multi-wavelength Pulse Transit Time based Blood Pressure Monitoring.
+      answer: 'Yukai Huang, Dongmin Huang,Jia Huang, Hongzhou Lu, Min He, and Wenjin Wang. Camera Wavelength Selection for Multi-wavelength Pulse Transit Time based Blood Pressure Monitoring. 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 2023: 1-5.'
+    - question: Use of period analysis to provide a timely assessment of 5-year relative survival for pancreatic cancer patients from Taizhou, eastern China.
+      answer: 'Ye Lu, Min He, Liyou Lian, Huijun Lei, Yongran Cheng, Liangyou Wang, Tianhui Chen, and Jinfei Chen. Use of period analysis to provide a timely assessment of 5-year relative survival for pancreatic cancer patients from Taizhou, eastern China. BMC Cancer, 2023: 23, 642.'
+    - question: A Pilot Study of Deep Learning Models for Camera based Hand Hygiene Monitoring in ICU.
+      answer: 'Weijun Huang, Jia Huang, Guowei Wang, Hongzhou Lu2, Min He, and Wenjin Wang. A Pilot Study of Deep Learning Models for Camera based Hand Hygiene Monitoring in ICU. 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 2023: 1-5.'
+    - question: 'Camera based Eye State Estimation for ICU Patients: A Pilot Clinical Study.'
+      answer: 'Haowen Wang, Weijun Huang, Jia Huang, Guowei Wang, Hongzhou Lu, and Wenjin Wang. Camera based Eye State Estimation for ICU Patients: A Pilot Clinical Study. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2023: 6060-6067.'
+- title: 2022
   faqs:
-    - question: What about Markdown and content management?
-      answer: Content creation and management are made convenient with Hugobricks. It supports Markdown, a lightweight markup language that simplifies the process of writing content-rich web pages. Markdown’s simplicity and readability make it a favorite among writers and developers alike. Hugobricks’s content organization system allows you to easily structure your content, making it effortless to manage and update your website’s information.
-    - question: What about SEO-friendliness?
-      answer:  Hugobricks is designed with search engine optimization (SEO) in mind. It generates clean HTML markup, adhering to best practices for search engine discoverability. This helps your site rank higher in search engine results, increasing its visibility to potential visitors. 
-    - question: What about hugobricks security?
-      answer: Additionally, Hugobricks’s static nature eliminates the need for databases or complex server configurations, making it inherently more secure than dynamic content management systems.
+    - question: 'BatmanNet: bi-branch masked graph transformer autoencoder for molecular representation.'
+      answer: 'Zhen Wang, Zheng Feng, Yanjun Li, Bowen Li, Yongrui Wang, Chulin Sha, Min He, and Xiaolin Li. BatmanNet: bi-branch masked graph transformer autoencoder for molecular representation. Briefings in Bioinformatics, 2022: 25.'

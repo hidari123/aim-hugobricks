@@ -40,7 +40,7 @@ menuitems:
   - title: 科研成果
     items:
       - title: 学术论文
-        link: /insage/
+        link: /papers/
       - title: 成果展示
         link: /products/
       - title: 超算中心
