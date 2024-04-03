@@ -1,7 +1,7 @@
 favicon_image: /uploads/branding/favicon.ico
 sticky_header: true
-customcursor: true
-intersectionobserver: true
+# customcursor: true
+# intersectionobserver: true
 filter_has_numbers: true
 page_size: 3
 # preheader:

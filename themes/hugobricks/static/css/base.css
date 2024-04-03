@@ -479,26 +479,27 @@ section.bgimage h1 + p {
   padding-top: 0;
 }
 .background {
-  animation: slide 40s linear infinite;
+  /* animation: slide 40s linear infinite; */
+  background: url('/img/home-photo4.png') center center / cover no-repeat;
   height: 100vh; /* 确保.background有足够高度以展示背景图 */
   background-size: cover; /* 背景图覆盖整个.background区域 */
 }
 
-@keyframes slide {
+/* @keyframes slide {
   0%, 100% {
     background: url('/img/home-photo2.png') center center / cover no-repeat;
   }
   25% {
-    background: url('/img//home-photo.jpg') center center / cover no-repeat;
+    background: url('/img/home-photo.jpg') center center / cover no-repeat;
   }
   50% {
 
-    background: url('/img//home-photo3.png') center center / cover no-repeat;
+    background: url('/img/home-photo3.png') center center / cover no-repeat;
   }
   75% {
-    background: url('/img//home-photo4.png') center center / cover no-repeat;
+    background: url('/img/home-photo4.png') center center / cover no-repeat;
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-}
+} */
 
 /*------------------------*/
 /* banner-container

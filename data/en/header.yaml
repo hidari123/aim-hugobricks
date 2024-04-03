@@ -41,10 +41,14 @@ menuitems:
     link: /team/
   - title: 最新动态
     link: /news/
-  - title: 产品介绍
+  - title: 科研成果
     link: /products/
     items:
-      - title: Insage
+      - title: 学术论文
+        link: /insage/
+      - title: 成果展示
+        link: /insage/
+      - title: 超算中心
         link: /insage/
 cta:
   active: true
