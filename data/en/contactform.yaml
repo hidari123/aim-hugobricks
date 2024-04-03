@@ -8,11 +8,15 @@ fields:
   required: true
 - name: title
   input_type: html
-  placeholder: <div>邮箱：jobs@aimlab.cc</div>
+  placeholder: <div><strong>邮箱：</strong>jobs@aimlab.cc</div>
   required: true
 - name: title
   input_type: html
-  placeholder: <div>邮件主题请注明：应聘岗位+姓名+研究方向，并附上你的简历</div>
+  placeholder: <div><strong>邮件主题请注明：</strong>应聘岗位+姓名+研究方向，并附上你的简历</div>
+  required: true
+- name: title
+  input_type: html
+  placeholder: <p><em>附件请点击按钮跳转邮箱后添加</em></p>
   required: true
 - name: subject
   input_type: text

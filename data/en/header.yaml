@@ -35,21 +35,24 @@ menuitems:
   #   link: /docs/
   - title: 研究方向
     link: /search/
-  - title: 加入我们
-    link: /join-us/
   - title: 团队介绍
     link: /team/
-  - title: 最新动态
-    link: /news/
   - title: 科研成果
-    link: /products/
     items:
       - title: 学术论文
         link: /insage/
       - title: 成果展示
-        link: /insage/
+        link: /products/
       - title: 超算中心
         link: /insage/
+  - title: 学术动态
+    link: /academic-news/
+  - title: 加入我们
+    items:
+      - title: 社会招聘
+        link: /social-recruitment/
+      - title: 硕博招生
+        link: /postgraduate-admissions/
 cta:
   active: true
   title: 联系我们

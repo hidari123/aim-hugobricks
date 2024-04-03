@@ -1,6 +1,6 @@
 ---
-title: News
-url: /news/
+title: Academic news
+url: /academic-news/
 ---
 {{< brick_posts >}}
 

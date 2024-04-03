@@ -3,22 +3,22 @@ title: Our team
 ---
 {{< brick_team >}}
 
-{{< breadcrumbs >}}
+<!-- {{< breadcrumbs >}} -->
 
-# 团队介绍
+## 团队介绍
 
-<!-- Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh. -->
+**人工智能与智慧医疗中心（Center for AI and Intelligent Medicine 以下简称“AIM”）** 是医学所重点建设的研究中心一，协同智能分子诊断、医学所-华大生命组学、创新药物等中心，以及附属肿瘤医院各个专科内外科、影像病理、检验、药物床、信息等多个科室，发挥国家肿瘤区域医疗中心的肿瘤大数据和生物样本资源优势、BT+AI 人才聚集优势，围绕医疗大数据安全共享和深度挖掘的关键共性问题，立足于生物医药和多组学大数据，聚焦恶性肿瘤等重大疾病的精准诊疗和药物发现，搭建生物医药可信智能开放操作系统和创新合作研究平台，研发基础大模型，开展 AI算法及平台、多模态智能诊疗和全链条智能制药等研发，推进前沿人工智能技术与生物医药领域的突破性进展。
 
 {{< /brick_team >}}
-<!-- {{< brick_title >}}
+{{< brick_title >}}
 
-## Want to join us?
+## 想要加入我们？
 
-Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh.
+**AIM** 现已建成由李晓林教授领衔，核心研究员、算法工程师、博士后及硕博研究生组成的 60 多人研究团队，科研经费和计算资源充足(GPU 集群拥有 A100\*8 卡,A40\*8 卡, A30\*8 卡等节点和 200G IB 交换机；投入数千万元)。现诚邀志存高远、勇于战、乐享成就的您加盟，携手创造下一代基础模型，让生命充满 AI！
 
-{{< button2 "Submit your CV" "/get-started/" >}}
+{{< button2 "加入我们" "/content-us/" >}}
 
 &nbsp;
 
-{{< /brick_title >}} -->
-{{< brick_cta >}}{{< /brick_cta >}}
+{{< /brick_title >}}
+<!-- {{< brick_cta >}}{{< /brick_cta >}} -->
