@@ -1,3 +1,10 @@
+<!--
+ * @Author: hidari
+ * @Date: 2024-03-12 10:54:49
+ * @LastEditors: hidari
+ * @LastEditTime: 2024-04-07 15:07:07
+ * Copyright (c) 2024 by hidari, All Rights Reserved. 
+-->
 
 {{- $inner := . -}}
 {{- if or (eq $inner "") (eq $inner nil) -}}
@@ -11,7 +18,7 @@
     <div class="container small">
         {{- markdownify (index $parts 0) -}}
     </div>
-    <div class="container">
+    <div class="container" style="max-width: 115em;">
         <ul class="grid features">
             {{ range after 1 $parts }}
                 <li class="has_icon">

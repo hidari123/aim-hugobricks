@@ -1,0 +1,47 @@
+
+{{- $inner := . -}}
+{{- if or (eq $inner "") (eq $inner nil) -}}
+    {{- with page.Site.GetPage "bricks/teams.md" -}}
+        {{- $inner = .RawContent -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $teams := where page.Site.RegularPages "Section" "teams" -}}
+<section class="teams">
+    {{ if $inner }}<div class="container small">
+        {{- markdownify $inner -}}
+    </div>{{ end }}
+    <div class="container">
+        <div class="filter">
+            <select id="filter" class="multiselecttags numbers_{{ page.Site.Data.settings.filter_has_numbers }}" multiple autocomplete="off">
+                {{ range $name, $taxonomy := page.Site.Taxonomies.tags }}
+                    <option value="{{ $name | urlize }}">{{ $name }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <ul class="contentitems grid people" data-pagesize="{{ page.Site.Data.settings.page_size }}">
+            {{ range $index,$team := $teams }}                
+                <li class="item{{ range .Params.tags }} tag_{{ . }}{{ end }}" onclick="document.location.href='{{ .RelPermalink }}';" style="cursor: pointer;">
+                  <div class="box">
+                        {{- if (resources.GetMatch .Params.image) -}}
+                            {{- $teamimage := (resources.GetMatch .Params.image).RelPermalink -}}
+                            {{- if $teamimage -}}<div class="img" ><img data-src="{{ $teamimage }}" alt="{{ .Title }}" style="cursor: pointer;" class="avatar" onclick="document.location.href='{{ .RelPermalink }}';" /></div>{{- end -}}
+                        {{- end -}}
+                        <h3>{{ .Title | safeHTML }}</h3>
+                        {{- if (.Params.function) -}}<div class="function">{{- .Params.function | safeHTML -}}</div>{{- end -}}
+                        <div class="summary">
+                            <p>{{ substr .Summary 0 190 | safeHTML }}...</p>
+                            <p><a href="{{ .RelPermalink }}" class="button ghost smaller">{{ i18n "Read more" }}</a></p>
+                        </div>
+                      </div>
+                </li>
+            {{ end }}
+            <li class="placeholder"></li>
+            <li class="placeholder"></li>
+        </ul>
+        <a class="button secondary ghost smaller" id="loadmoreposts" onclick="loadMorePosts();">查看更多...</a>
+        <script src="/js/filter.js" charset="utf-8"></script>
+    </div>
+</section>
+
+

@@ -36,7 +36,7 @@ menuitems:
   - title: 研究方向
     link: /search/
   - title: 团队介绍
-    link: /team/
+    link: /teams/
   - title: 科研成果
     items:
       - title: 学术论文

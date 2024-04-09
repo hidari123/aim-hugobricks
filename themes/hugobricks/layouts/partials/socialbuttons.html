@@ -1,5 +1,10 @@
 <ul class="buttons social">
     {{- range (index page.Site.Data page.Site.Language.Lang).footer.socials -}}
-    <li><a href="{{ .link | safeURL }}" class="button icon"><img src="{{ .logo_image }}" alt="{{ .title }}" /></a></li>
+        {{- if .logo_image -}}
+        <li><a href="{{ .link | safeURL }}" class="button icon"><img src="{{ .logo_image }}" alt="{{ .title }}" /></a></li>
+        {{- end -}}
+        {{- if .image -}}
+        <li><a href="{{ .link | safeURL }}" target="_blank"><img src="{{ .image }}" alt="{{ .title }}" style="height: 36px;"/></a></li>
+        {{- end -}}
     {{- end -}}
 </ul>
