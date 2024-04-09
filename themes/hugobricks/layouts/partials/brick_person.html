@@ -19,7 +19,7 @@
           </div>
           {{ else if index page.Params.tags 0 }}
           <div>
-              <img src="/img/icons/material-symbols/200/rounded/label-fill.svg"class="black_2_textDark" alt="" />
+              <img src="/img/icons/material-symbols/200/rounded/label-fill.svg" style="filter: contrast(1) sepia(1) hue-rotate(160deg) grayscale(0.8)!important;" class="black_2_textDark" alt="" />
               <ul>
                   {{ range page.Params.tags }}
                   <li><a href="/blog/?tag={{ . }}">{{ . }}</a>
@@ -29,17 +29,18 @@
           {{ end }}
       </div>
   </div>
-  <div class="container wide">
-      {{- $postimage := `/uploads/gallery/01.jpg` -}}
-      {{- if page.Params.image -}}
-          {{- $postimage = page.Params.image -}}
-      {{- end -}}
-      {{- if (resources.GetMatch $postimage) -}}
-          {{- $postimage = ((resources.GetMatch $postimage).Fill `1600x800 jpg Smart q50`).RelPermalink -}}
-      {{- end -}}
-      <img src="{{ $postimage }}" alt="{{ .Title }}" class="featuredimage" />
-  </div>
-  <div class="container post">
-      {{ page.Content }}
-  </div>
+
+  <section class="about">
+    <div class="container small">
+				{{- $postimage := `/uploads/gallery/01.jpg` -}}
+				{{- if page.Params.image -}}
+						{{- $postimage = page.Params.image -}}
+				{{- end -}}
+				{{- if (resources.GetMatch $postimage) -}}
+						{{- $postimage = (resources.GetMatch $postimage).RelPermalink -}}
+				{{- end -}}
+				<p><img src="{{ $postimage }}" alt="{{ .Title }}" /></p>
+        {{ page.Content }}
+    </div>
+  </section>
 </section>

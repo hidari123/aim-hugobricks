@@ -2,7 +2,7 @@
     {{- if eq true true -}}
         {{ replace (replace .Content "<p><section" "<section") "</section></p>" "</section>" | safeHTML }}
     {{- else -}}
-        {{ partial "brick_teams.html" }}
+        {{ partial "brick_person.html" }}
         {{ partial "brick_cta.html" }}
     {{- end -}}
 {{ end }}

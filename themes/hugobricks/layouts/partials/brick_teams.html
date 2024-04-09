@@ -1,4 +1,3 @@
-
 {{- $inner := . -}}
 {{- if or (eq $inner "") (eq $inner nil) -}}
     {{- with page.Site.GetPage "bricks/teams.md" -}}
@@ -31,7 +30,7 @@
                         {{- if (.Params.function) -}}<div class="function">{{- .Params.function | safeHTML -}}</div>{{- end -}}
                         <div class="summary">
                             <p>{{ substr .Summary 0 190 | safeHTML }}...</p>
-                            <p><a href="{{ .RelPermalink }}" class="button ghost smaller">{{ i18n "Read more" }}</a></p>
+                            {{/*  <p><a href="{{ .RelPermalink }}" class="button ghost smaller">{{ i18n "Read more" }}</a></p>  */}}
                         </div>
                       </div>
                 </li>
