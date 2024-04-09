@@ -3,7 +3,7 @@ title: features
 ---
 <!-- ## 研究方向 -->
 
-<!-- Hugobricks covers all components you would like to have at hand. It is a power engine for your web oriented projects. It has excellent performance in all categories. -->
+<!-- 一些关于研究方向的介绍一些关于研究方向的介绍一些关于研究方向的介绍一些关于研究方向的介绍 -->
 
 ---
 

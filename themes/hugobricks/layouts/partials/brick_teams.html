@@ -1,3 +1,10 @@
+<!--
+ * @Author: hidari
+ * @Date: 2024-04-07 16:58:53
+ * @LastEditors: hidari
+ * @LastEditTime: 2024-04-09 16:43:32
+ * Copyright (c) 2024 by hidari, All Rights Reserved. 
+-->
 {{- $inner := . -}}
 {{- if or (eq $inner "") (eq $inner nil) -}}
     {{- with page.Site.GetPage "bricks/teams.md" -}}
@@ -14,17 +21,21 @@
         <div class="filter">
             <select id="filter" class="multiselecttags numbers_{{ page.Site.Data.settings.filter_has_numbers }}" multiple autocomplete="off">
                 {{ range $name, $taxonomy := page.Site.Taxonomies.tags }}
+                {{/*  {{ range $nameCn, $taxonomy := page.Site.Taxonomies.tagsCn }}  */}}
                     <option value="{{ $name | urlize }}">{{ $name }}</option>
+
                 {{ end }}
             </select>
         </div>
-        <ul class="contentitems grid people" data-pagesize="{{ page.Site.Data.settings.page_size }}">
+        <ul class="contentitems grid people" data-pagesize="5">
             {{ range $index,$team := $teams }}                
                 <li class="item{{ range .Params.tags }} tag_{{ . }}{{ end }}" onclick="document.location.href='{{ .RelPermalink }}';" style="cursor: pointer;">
                   <div class="box">
                         {{- if (resources.GetMatch .Params.image) -}}
                             {{- $teamimage := (resources.GetMatch .Params.image).RelPermalink -}}
-                            {{- if $teamimage -}}<div class="img" ><img data-src="{{ $teamimage }}" alt="{{ .Title }}" style="cursor: pointer;" class="avatar" onclick="document.location.href='{{ .RelPermalink }}';" /></div>{{- end -}}
+                            {{- if $teamimage -}}<div class="img" ><img data-src="{{ $teamimage }}" alt="{{ .Title }}" style="cursor: pointer;" class="avatar" onclick="document.location.href='{{ .RelPermalink }}';" /></div>
+                            {{- end -}}
+                            {{- else -}}<div class="img" ><img data-src="/uploads/photos/avatars/avatar.png" alt="{{ .Title }}" style="cursor: pointer;" class="avatar" onclick="document.location.href='{{ .RelPermalink }}';" /></div>
                         {{- end -}}
                         <h3>{{ .Title | safeHTML }}</h3>
                         {{- if (.Params.function) -}}<div class="function">{{- .Params.function | safeHTML -}}</div>{{- end -}}

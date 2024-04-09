@@ -31,8 +31,9 @@
   </div>
 
   <section class="about">
+    {{- if (.Params.function) -}}<div class="function">{{- .Params.function | safeHTML -}}</div>{{- end -}}
     <div class="container small">
-				{{- $postimage := `/uploads/gallery/01.jpg` -}}
+				{{- $postimage := `/uploads/photos/avatars/avatar.png` -}}
 				{{- if page.Params.image -}}
 						{{- $postimage = page.Params.image -}}
 				{{- end -}}

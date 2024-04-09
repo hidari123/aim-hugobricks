@@ -26,7 +26,7 @@ function itemsLeft(tag) {
 
 const pagesize = parseInt(document.querySelector('.contentitems').dataset.pagesize);
 var multiselecttags_update = function(selectelement, selectEl, pillsEl) {
-    selectEl.innerHTML = '<option>Filter tags</option>';
+    selectEl.innerHTML = '<option>筛选</option>';
     for (var i=0; i<selectelement.options.length;i++) {
         const j = i;
         var tag = selectelement.options[i].value;
