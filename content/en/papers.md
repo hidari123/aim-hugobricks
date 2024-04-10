@@ -5,7 +5,7 @@ image:
 --- 
 {{< brick_title >}}
 
-{{< breadcrumbs >}}
+<!-- {{< breadcrumbs >}} -->
 
 # 学术论文
 
