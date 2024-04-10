@@ -1,5 +1,6 @@
 ---
-title: Academic papers
+# title: Academic papers
+title: 学术论文
 image:
 --- 
 {{< brick_title >}}

@@ -1,10 +1,3 @@
-<!--
- * @Author: hidari
- * @Date: 2024-04-07 16:58:53
- * @LastEditors: hidari
- * @LastEditTime: 2024-04-09 16:43:32
- * Copyright (c) 2024 by hidari, All Rights Reserved. 
--->
 {{- $inner := . -}}
 {{- if or (eq $inner "") (eq $inner nil) -}}
     {{- with page.Site.GetPage "bricks/teams.md" -}}
@@ -18,15 +11,14 @@
         {{- markdownify $inner -}}
     </div>{{ end }}
     <div class="container">
-        <div class="filter">
+        {{/*  <div class="filter">
             <select id="filter" class="multiselecttags numbers_{{ page.Site.Data.settings.filter_has_numbers }}" multiple autocomplete="off">
                 {{ range $name, $taxonomy := page.Site.Taxonomies.tags }}
-                {{/*  {{ range $nameCn, $taxonomy := page.Site.Taxonomies.tagsCn }}  */}}
                     <option value="{{ $name | urlize }}">{{ $name }}</option>
 
                 {{ end }}
             </select>
-        </div>
+        </div>  */}}
         <ul class="contentitems grid people" data-pagesize="5">
             {{ range $index,$team := $teams }}                
                 <li class="item{{ range .Params.tags }} tag_{{ . }}{{ end }}" onclick="document.location.href='{{ .RelPermalink }}';" style="cursor: pointer;">
@@ -40,7 +32,8 @@
                         <h3>{{ .Title | safeHTML }}</h3>
                         {{- if (.Params.function) -}}<div class="function">{{- .Params.function | safeHTML -}}</div>{{- end -}}
                         <div class="summary">
-                            <p>{{ substr .Summary 0 190 | safeHTML }}...</p>
+                            {{/*  <p>{{ substr .Summary 0 190 | safeHTML }}...</p>  */}}
+                            {{- if (.Params.description) -}}<p>{{- .Params.description | safeHTML -}}</p>{{- end -}}
                             {{/*  <p><a href="{{ .RelPermalink }}" class="button ghost smaller">{{ i18n "Read more" }}</a></p>  */}}
                         </div>
                       </div>

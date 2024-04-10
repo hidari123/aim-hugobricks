@@ -1,5 +1,5 @@
 ---
-title: teams
+title: 团队介绍
 url: /teams/
 ---
 {{< brick_teams >}}
