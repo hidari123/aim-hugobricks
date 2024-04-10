@@ -6,29 +6,61 @@ title: 超算中心
 
 # 超算中心
 
-一些关于超算中心的介绍一些关于超算中心的介绍一些关于超算中心的介绍一些关于超算中心的介绍一些关于超算中心的介绍一些关于超算中心的介绍一些关于超算中心的介绍
+中国科学院杭州医学研究所组学与智慧医疗中心李晓林研究团队有着较为丰富的AI及HPC计算资源：
+
+研究团队目前拥有GPU服务器20余台，主要包含A100 GPU 32张，A40 GPU 40张，A30 GPU 8张，3090 GPU 30余张，存储设备裸硬件达到1PB容量。同时集群处于每年按规划扩建状态，充分满足组内日常的科研需求。
 
 {{< /brick_intro >}}
+
 {{< brick_image2 >}}
 
-## 超算中心的介绍
+<h2 style="text-align: center">集群及部分设备掠影</h2>
 
-![](/uploads/illustrations/cuate/responsive.svg)
+<!-- ## 集群及部分设备掠影 -->
 
-超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍
+<div style="display: flex; justify-content: space-between;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="/uploads/computing-power/environment.png" alt="超算机房环境" style="display: inline-block;
+      border-radius: 25%;
+      overflow: hidden;
+      margin-bottom: 6px;
+      aspect-ratio: 1;
+      width: 20rem;
+      object-fit: cover;">
+      <p>超算机房环境</p>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="/uploads/computing-power/a100.png" alt="部分A100 GPU" style="display: inline-block;
+      border-radius: 25%;
+      margin-bottom: 6px;
+      overflow: hidden;
+      aspect-ratio: 1;
+      width: 20rem;
+      object-fit: cover;" />
+    <p>部分A100 GPU</p>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="/uploads/computing-power/3090.png" alt="部分3090 GPU" style="display: inline-block;
+    border-radius: 25%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    margin-bottom: 6px;
+    width: 20rem;
+    object-fit: cover;" />
+    <p>部分3090 GPU</p>
+  </div>
 
-- 超算中心的介绍
-- 超算中心的介绍
-- 超算中心的介绍
+</div>
 
 {{< /brick_image2 >}}
 {{< brick_image >}}
 
-## 超算中心的介绍
+## 超算中心助力AI For Science
 
-![](/uploads/illustrations/cuate/version-control.svg)
+![学术论文](/uploads/computing-power/article.png)
+![insage](/uploads/computing-power/insage.png)
 
-超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍超算中心的介绍
+目前通过超算中心，科研团队获得了海量的计算能力，助力产出高质量论文10余篇，均已发表在各大期刊会议。同时助力科研转化，组内申请专利10余项（均已通过国家专利局审核）。通过强大的服务支撑能力，AI推理能力，助力组内科研产品Insage有序开发及版本迭代。
 
 {{< /brick_image >}}
 <!-- {{< brick_reviews >}}{{< /brick_reviews >}} -->

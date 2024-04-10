@@ -12,12 +12,20 @@
 {{ $inner = replace $inner $image "" 1 }}
 
 <section class="image">
-    <div class="container twocols">
-        <div class="text">
-            <div>{{ $inner | safeHTML }}</div>
-        </div>
-        <div class="image">
-            <div>{{- $image | safeHTML -}}</div>
-        </div>
-    </div>
+	{{- if $image -}}
+		<div class="container twocols">
+				<div class="text">
+						<div>{{ $inner | safeHTML }}</div>
+				</div>
+				<div class="image">
+						<div>{{- $image | safeHTML -}}</div>
+				</div>
+		</div>
+	{{- else -}}
+	<div class="container">
+		<div class="text">
+			<div>{{ $inner | safeHTML }}</div>
+		</div>
+	</div>
+	{{end}}
 </section>
