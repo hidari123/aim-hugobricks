@@ -11,9 +11,9 @@ Center for AI and Intelligent Medicine
 
 <!-- {{< button "联系我们" "/content-us/" >}} -->
 
-![](/uploads/photos/home-photo.jpg)
+<!-- ![](/uploads/photos/home-photo.jpg)
 ![](/uploads/photos/home-photo2.png)
-![](/uploads/photos/home-photo3.png)
+![](/uploads/photos/home-photo3.png) -->
 {{< /brick_title2 >}}
 {{< brick_features >}}{{< /brick_features >}}
 {{< brick_about >}}

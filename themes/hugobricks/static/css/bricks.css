@@ -643,8 +643,8 @@ section.docs .container {
 }
 section.docs .container .menu {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-  width: 20rem;
-  max-width: 20rem;
+  width: 10rem;
+  max-width: 10rem;
   padding: 2rem 0 3.2rem;
 }
 section.docs .container .content {
@@ -653,8 +653,9 @@ section.docs .container .content {
   padding: 3.2rem 0;
   flex-grow: 1;
 }
+
 section.docs .container .content > * {
-  max-width: 45rem;
+  max-width: 55rem;
 }
 section.docs .container .content > p img[src$=".svg"] {
   width: 100%;

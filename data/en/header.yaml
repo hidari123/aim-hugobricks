@@ -42,7 +42,7 @@ menuitems:
       - title: 学术论文
         link: /papers/
       - title: 成果展示
-        link: /products/insage/
+        link: /insage/
       - title: 超算中心
         link: /computing-power/
   - title: 学术动态
