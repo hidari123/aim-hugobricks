@@ -119,3 +119,5 @@ title: 社会招聘
 {{< /tabs >}}
 
 {{< /brick_wide >}}
+
+{{< brick_cta >}}{{< /brick_cta >}}
