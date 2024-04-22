@@ -1,7 +1,6 @@
 ---
 title: Insage
 ---
-# Insage
 
 {{< brick_intro >}}
 
@@ -41,7 +40,7 @@ title: Insage
 </div>
 {{< /brick_image2 >}}
 
-{{< brick_image >}}
+{{< brick_intro >}}
 
 ## 为什么选择insage？
 
@@ -56,15 +55,15 @@ title: Insage
 
 选择我们的平台，您将拥有一个强大的科研助手，帮助您在科学研究和商业决策中取得领先优势，共同推动科学发现和技术创新。
 
-{{< /brick_image >}}
+{{< /brick_intro >}}
 {{< brick_image2 >}}
 
 <!-- ## 快速开始 -->
 
 <!-- ![](/uploads/illustrations/cuate/version-control.svg) -->
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-<div style="text-align: center;">无论您是在寻找特定领域的深入研究，还是仅仅对生物医药实体间的关系感到好奇，我们的平台都能满足您的需求。我们诚邀您开始探索，发现新的知识，并在您的研究或学习中取得突破。立即开始您的因果关系探索之旅吧！</div>
+<div style="display: flex; flex-direction: column; align-items: center; ">
+<div style="text-align: center; max-width: 45rem;">无论您是在寻找特定领域的深入研究，还是仅仅对生物医药实体间的关系感到好奇，我们的平台都能满足您的需求。我们诚邀您开始探索，发现新的知识，并在您的研究或学习中取得突破。立即开始您的因果关系探索之旅吧！</div>
 
 
 
