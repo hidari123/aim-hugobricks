@@ -63,7 +63,8 @@ title: Insage
 
 <!-- ![](/uploads/illustrations/cuate/version-control.svg) -->
 
-无论您是在寻找特定领域的深入研究，还是仅仅对生物医药实体间的关系感到好奇，我们的平台都能满足您的需求。我们诚邀您开始探索，发现新的知识，并在您的研究或学习中取得突破。立即开始您的因果关系探索之旅吧！
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="text-align: center;">无论您是在寻找特定领域的深入研究，还是仅仅对生物医药实体间的关系感到好奇，我们的平台都能满足您的需求。我们诚邀您开始探索，发现新的知识，并在您的研究或学习中取得突破。立即开始您的因果关系探索之旅吧！</div>
 
 
 
@@ -73,5 +74,6 @@ title: Insage
 
 
 **商务合作：** ScholarClub@aimlab.cc
+</div>
 
 {{< /brick_image2 >}}
