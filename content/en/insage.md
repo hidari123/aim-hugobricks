@@ -1,3 +1,10 @@
+<!--
+ * @Author: hidari
+ * @Date: 2024-04-19 16:29:18
+ * @LastEditors: hidari
+ * @LastEditTime: 2024-04-25 15:44:53
+ * Copyright (c) 2024 by hidari, All Rights Reserved. 
+-->
 ---
 title: Insage
 ---
@@ -33,17 +40,19 @@ title: Insage
   - **共现**：这一关系类型指的是两个实体在某种条件下经常一起出现。这可以帮助您识别可能的相互作用或共同参与的生物学过程。
   </div>
   </div>
-  <img src="/uploads/products/insage/insage_drawer.png" alt="insage" class="is_svg" style="width:20rem;border-radius: 1rem;
+  <img src="/uploads/products/insage/insage_drawer.PNG" alt="insage" class="is_svg" style="width:20rem;border-radius: 1rem;
       overflow: hidden;
   " />
 </div>
 </div>
 {{< /brick_image2 >}}
 
-{{< brick_intro >}}
+{{< brick_image >}}
+
+<div style="max-width:55rem;    display: flex;
+    justify-content: space-around;">
 
 ## 为什么选择insage？
-
 
 > 我们的服务特别关注于满足专业用户的需求，通过提供与搜索实体有因果关系的实体的全面展示，以及相关关系的科学论文证明，我们帮助用户在信息海洋中迅速定位到关键信息。这大大提高了研发效率，缩短了产品从概念到市场的时间。
 1. **精准的因果关系识别**：我们的平台利用先进的算法和大数据分析，精确识别实体间的“上调”、“下调”、“相关”和“共现”等因果关系，为您提供科学探索的坚实基础。
@@ -54,8 +63,9 @@ title: Insage
 6. **促进科学合作与共享**：我们的平台鼓励用户之间的合作与知识共享，通过共同探索和验证因果关系，推动科学社区的整体进步。
 
 选择我们的平台，您将拥有一个强大的科研助手，帮助您在科学研究和商业决策中取得领先优势，共同推动科学发现和技术创新。
+</div>
 
-{{< /brick_intro >}}
+{{< /brick_image >}}
 {{< brick_image2 >}}
 
 <!-- ## 快速开始 -->
