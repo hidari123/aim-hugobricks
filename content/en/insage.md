@@ -2,7 +2,7 @@
  * @Author: hidari
  * @Date: 2024-04-19 16:29:18
  * @LastEditors: hidari
- * @LastEditTime: 2024-04-25 15:53:03
+ * @LastEditTime: 2024-04-25 15:54:33
  * Copyright (c) 2024 by hidari, All Rights Reserved. 
 -->
 ---
@@ -40,7 +40,7 @@ title: Insage
   - **共现**：这一关系类型指的是两个实体在某种条件下经常一起出现。这可以帮助您识别可能的相互作用或共同参与的生物学过程。
   </div>
   </div>
-  <img src="/uploads/products/insage/insage_drawer.PNG" alt="insage" class="is_svg" style="width:20rem;border-radius: 1rem;
+  <img src="/uploads/products/insage/insage_drawer.png" alt="insage" class="is_svg" style="width:20rem;border-radius: 1rem;
       overflow: hidden;
   " />
 </div>
